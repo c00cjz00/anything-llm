@@ -18,3 +18,6 @@ cd $HOME/anything-llm
 cd $HOME/anything-llm
 ./start.sh
 ```
+5. open url
+http://$IP:3001
+
