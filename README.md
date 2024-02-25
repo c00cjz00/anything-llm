@@ -1,9 +1,9 @@
-## INSTALL Package sqlite3
+#### INSTALL Package sqlite3
 ```
 sudo apt install sqlite3
 ```
 
-## INSTALL anything-llm
+#### INSTALL anything-llm
 1. download anything-llm script
 ```
 cd $HOME
@@ -26,7 +26,7 @@ cd $HOME/anything-llm
 5. open url
 https://$IP:3001
 
-## SETUP anything-llm
+#### SETUP anything-llm
 1. LLM Preference, Local AI
 ```
 Local AI Base URL: http://notebook.biobank.org.tw/api/v1
@@ -61,7 +61,7 @@ LOCAL_AI_MODEL_PREF='TAIDE/b.11.0.0'
 ```
 docker restart anythingllm
 ```
-## LOGIN WEBSITE
+#### LOGIN WEBSITE
 Create New Workspace
 ```
 TAIDE/b.11.0.0
@@ -69,7 +69,7 @@ TAIDE/t.0.1.0
 TAIDE/k.0.1.0
 ```
 
-## COMMAND MODE TO UPDATE DB anythingllm.db 
+#### COMMAND MODE TO UPDATE DB anythingllm.db 
 1. Stop anythingllm, and connect to sqlite3 DB 
 ```
 docker stop anythingllm
