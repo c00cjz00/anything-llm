@@ -87,4 +87,32 @@ sqlite>  UPDATE workspaces SET chatModel = 'TAIDE/k.0.1.0' WHERE name = 'TAIDE/k
 ```
 docker start anythingllm
 ```
-"
+
+## Multi-User Mode
+1. Setup -> Security -> Multi-User Mode -> Save
+```
+Admin account username
+Admin account password
+```
+2. Setup -> Users -> Add User
+```
+Username: 
+Password:
+Role: Default
+```
+3. Setup -> Workspaces -> Click [...]
+```
+Checked the user checkbox
+```
+4. Singout and login with normal username and password
+```
+Username: 
+Password:
+```
+
+## RAG
+1. login with admin
+
+
+
+
