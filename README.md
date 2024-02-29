@@ -82,6 +82,12 @@ sqlite> UPDATE workspaces SET chatModel = 'TAIDE/b.11.0.0' WHERE name = 'TAIDE/b
 sqlite> UPDATE workspaces SET chatModel = 'TAIDE/t.0.1.0' WHERE name = 'TAIDE/t.0.1.0';
 sqlite>  UPDATE workspaces SET chatModel = 'TAIDE/k.0.1.0' WHERE name = 'TAIDE/k.0.1.0';
 ```
+or
+```
+sqlite> UPDATE workspaces SET chatModel = 'TAIDE/b.11.0.0' WHERE name like '%國語%';
+sqlite> UPDATE workspaces SET chatModel = 'TAIDE/t.0.1.0' WHERE name like '%台語%';
+sqlite>  UPDATE workspaces SET chatModel = 'TAIDE/k.0.1.0' WHERE name like '%客語%';
+```
 
 3. Start anythingllm
 ```
