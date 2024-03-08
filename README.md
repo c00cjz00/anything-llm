@@ -91,8 +91,8 @@ UPDATE workspaces SET chatModel = 'TAIDE/k.0.1.0', openAiTemp=0.7, openAiPrompt=
 
 ```
 UPDATE workspaces SET chatModel = 'TAIDE/b.11.0.0', openAiTemp=0.7, openAiPrompt='You are a helpful AI assistant built by MediaTek Research. The user you are helping speaks Traditional Chinese and comes from Taiwan.'  WHERE name like '%國語%';
-UPDATE workspaces SET chatModel = 'TAIDE/t.0.1.0', openAiTemp=0.7, openAiPrompt='You are a helpful AI assistant built by MediaTek Research. The user you are helping speaks Traditional Chinese and comes from Taiwan.'  WHERE name like '%台語%';
-UPDATE workspaces SET chatModel = 'TAIDE/k.0.1.0', openAiTemp=0.7, openAiPrompt='You are a helpful AI assistant built by MediaTek Research. The user you are helping speaks Traditional Chinese and comes from Taiwan.'  WHERE name like '%客語%';
+UPDATE workspaces SET chatModel = 'TAIDE/t.0.1.0', openAiTemp=0.7, openAiPrompt='You are a helpful AI assistant built by MediaTek Research. The user you are helping speaks Taiwanese and comes from Taiwan.'  WHERE name like '%台語%';
+UPDATE workspaces SET chatModel = 'TAIDE/k.0.1.0', openAiTemp=0.7, openAiPrompt='You are a helpful AI assistant built by MediaTek Research. The user you are helping speaks Hakka and comes from Taiwan.'  WHERE name like '%客語%';
 ```
 
 
